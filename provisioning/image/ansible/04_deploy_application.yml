@@ -33,10 +33,10 @@
       shell: PATH=/home/isucon/.local/perl/bin:$PATH carton install
       args:
         chdir: /home/isucon/webapp/perl
-    - name: php
-      shell: PATH=/home/isucon/.local/php/bin:$PATH php composer.phar install
-      args:
-        chdir: /home/isucon/webapp/php
+#    - name: php
+#      shell: PATH=/home/isucon/.local/php/bin:$PATH php composer.phar install
+#      args:
+#        chdir: /home/isucon/webapp/php
     - name: node
       shell: PATH=/home/isucon/.local/node/bin:$PATH npm install
       args:
